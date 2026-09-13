@@ -7,16 +7,17 @@ main{max-width:720px;margin:0 auto;padding:48px 20px 80px}h1{font-size:2rem;marg
 h2{font-size:1.15rem;margin:28px 0 8px;color:#7DCFB6}p,li{color:#C5D0C9}a{color:#7DCFB6}ul{padding-left:1.2rem}
 strong{color:#F4F7F5}
 </style></head><body><main>
-<p>更新日期：2026-09-13  </p>
-<p>应用名称：Jaguarmap（jaguarMap）  </p>
+<h1>Jaguarmap 隐私政策</h1>
+<p>更新日期：2026-09-13</p>
+<p>应用名称：Jaguarmap（jaguarMap）</p>
 <p>开发者：应用开发者（个人）</p>
 <h2>1. 我们是谁</h2>
 <p>jaguarMap 是一款<strong>非捷豹官方</strong>的个人工具应用，用于在您本人授权登录捷豹 InControl 车主门户后，查看并在地图上展示您的历史行驶轨迹。</p>
 <h2>2. 我们收集哪些信息</h2>
 <p>本应用<strong>不会</strong>向开发者或第三方运营服务器上传您的行程数据。数据主要在您的设备本地处理：</p>
 <ul>
-<li><strong>车主门户会话凭证（Cookie）</strong>：用于访问您本人的行程接口，仅保存在本机应用沙盒；发行包不含真实会话。</li>
-<li><strong>历史行程与轨迹坐标</strong>：从捷豹 InControl 中国站车主门户拉取后，缓存在本机，用于列表、统计与地图展示。</li>
+<li><strong>车主门户会话凭证（Cookie）</strong>：用于访问您本人的行程接口，仅保存在本机 Keychain（不会随 iCloud/iTunes 备份一并带走）；发行包不含真实会话。</li>
+<li><strong>历史行程与轨迹坐标</strong>：从捷豹 InControl 中国站车主门户拉取后，缓存在本机，用于列表、统计与地图展示。这些坐标来自门户历史行程，<strong>不是</strong>设备实时定位。</li>
 <li><strong>手机号等登录信息</strong>：仅在门户登录流程中由捷豹官方页面处理；本应用不另建账号体系。</li>
 <li><strong>可选生物识别</strong>：若您开启 Face ID / 触控 ID 锁定，系统仅用于本地解锁验证，我们不会采集生物特征数据。</li>
 <li><strong>本地通知</strong>：若您开启会话提醒，仅在设备本地调度通知，不经过开发者服务器。</li>
@@ -28,27 +29,28 @@ strong{color:#F4F7F5}
 </ul>
 <h2>4. 信息如何存储与共享</h2>
 <ul>
-<li>行程与 Cookie 默认保存在设备本地（应用沙盒）。</li>
-<li>若您使用 iCloud 备份，备份内容为行程列表缓存与车辆资料摘要，<strong>不含登录 Cookie</strong>；换机后需重新登录门户。</li>
+<li>行程默认缓存在设备本地；登录 Cookie 存于 Keychain。</li>
+<li>若您使用 iCloud 备份，备份内容为行程列表、轨迹点缓存与车辆资料摘要，<strong>不含登录 Cookie</strong>；换机后需重新登录门户。</li>
 <li>桌面小组件通过 App Group 读取里程摘要；开启应用锁时可选择隐藏路线起终点细节。</li>
 <li>本应用不运营自有后端；网络请求直接发往捷豹相关域名（如 `incontrol.jaguar.com.cn`、身份登录域名）。</li>
 <li>除非法律要求，我们不会将您的行程数据提供给无关第三方。</li>
 </ul>
 <h2>5. 地图与位置</h2>
-<p>应用使用系统地图（MapKit）展示<strong>历史轨迹点</strong>，不会进行实时定位跟踪，也不会在后台持续获取位置。</p>
+<p>应用使用系统地图（MapKit）展示<strong>历史轨迹点</strong>，不会进行实时定位跟踪，也不会在后台持续获取位置。本应用不请求设备「使用期间定位」权限。</p>
 <h2>6. 您的选择</h2>
 <ul>
-<li>您可随时在应用内重新登录以更新会话。</li>
-<li>您可关闭 Face ID 锁定、会话提醒，或删除应用以清除本机缓存与凭证。</li>
-<li>您也可在捷豹官方门户管理您的车主账号与行程数据。</li>
+<li>您可随时在应用内重新登录以更新会话，或选择「退出登录」清除本机会话。</li>
+<li>您可在「我的」中清除行程缓存，或「删除全部本地数据」清空会话、缓存与小组件摘要。</li>
+<li>您可关闭 Face ID 锁定、会话提醒，或删除应用以清除本机数据。</li>
+<li>您也可在捷豹官方门户管理您的车主账号与行程数据；应用内支持勾选后从门户批量导出或删除行程。</li>
 </ul>
 <h2>7. 儿童</h2>
 <p>本应用面向车辆所有者，不以儿童为目标用户。</p>
 <h2>8. 政策变更</h2>
 <p>若政策更新，将在本页面修订更新日期。继续使用即表示知悉更新内容。</p>
 <h2>9. 联系我们</h2>
-<p>如有隐私相关问题，请通过 GitHub 仓库 Issues 联系：  </p>
-<p>https://github.com/szgturnin/jaguarMap</p>
+<p>如有隐私相关问题，请通过 GitHub 仓库 Issues 联系：</p>
+<p><a href="https://github.com/szgturnin/jaguarMap">https://github.com/szgturnin/jaguarMap</a></p>
 <h2>公开地址</h2>
-<p>https://szgturnin.github.io/jaguarMap-privacy/</p>
+<p><a href="https://szgturnin.github.io/jaguarMap-privacy/">https://szgturnin.github.io/jaguarMap-privacy/</a></p>
 </main></body></html>
