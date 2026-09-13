@@ -1,7 +1,7 @@
 # jaguarMap 隐私政策
 
 更新日期：2026-09-13  
-应用名称：jaguarMap  
+应用名称：捷途轨迹（jaguarMap）  
 开发者：应用开发者（个人）
 
 ## 1. 我们是谁
@@ -54,3 +54,8 @@ https://github.com/szgturnin/jaguarMap
 ## 公开地址
 
 https://gist.githubusercontent.com/szgturnin/089bd0e1bda4550119af793760564ef8/raw/PRIVACY.md
+
+
+## 公开地址
+
+https://szgturnin.github.io/jaguarMap-privacy/
